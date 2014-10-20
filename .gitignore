@@ -1,0 +1,19 @@
+#ignore standard flat files
+*.txt
+*.csv
+
+#Ignore MS office data files
+*.xlsx
+*.xlsm
+*.docx
+*.xls
+*.doc
+
+# Ignore archives
+*.tar.*
+*.tgz
+*.zip
+
+#random ones taken from http://www.webopedia.com/quick_ref/fileextensionsfull.asp
+
+*.asc
