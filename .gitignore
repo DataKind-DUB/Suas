@@ -1,19 +1,68 @@
-#ignore standard flat files
+# flat files
 *.txt
-*.csv
+*.*sv
 
-#Ignore MS office data files
-*.xlsx
-*.xlsm
-*.docx
-*.xls
-*.doc
 
-# Ignore archives
-*.tar.*
+# MS office docs
+*.xls*
+*.doc*
+*.ppt*
+
+
+# archives
+*.tar*
 *.tgz
 *.zip
+*.bz2
+*.7z
 
-#random ones taken from http://www.webopedia.com/quick_ref/fileextensionsfull.asp
 
+# sqlite, access, redis
+*.db
+*.mdb
+*.rdb
+
+
+# Python related....
+# iPython notebooks
+.ipynb_checkpoints/*
+# Python builds
+*.egg*
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib*
+# Install logs
+pip-log.txt
+# unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+# Translations
+*.mo
+# PyDev (Eclipse)
+.project
+.pydevproject
+# PyCharm IDE
+.idea/*
+
+
+# Dev configs
+dev.yaml
+
+
+# C extensions
+*.so
+
+
+# misc
 *.asc
+.DS_Store
+
+
